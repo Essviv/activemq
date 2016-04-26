@@ -19,11 +19,11 @@ public class WildcardConsumer extends BaseClass {
 //        produce(connection, "wildcard.queue.second");
 
 //        produce(connection, "wildcard.queue.>");
-        produce(connection, ">");
+//        produce(connection, ">");
 
         consume(connection, "wildcard.queue.first");
 
-        consume(connection, "wildcard.queue.second");
+//        consume(connection, "wildcard.queue.second");
 
 //        connection.close();
     }
